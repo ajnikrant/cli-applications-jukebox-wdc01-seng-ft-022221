@@ -38,7 +38,8 @@ def exit_jukebox
 end
 
 def run
-  unless condition
-
+  user_input = gets.chomp
+  unless user_input == "exit"
+    
   end
 end
