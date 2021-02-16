@@ -17,6 +17,9 @@ def play(songs)
   while counter < songs.length
     if user_input.to_i== counter+1
       puts "Playing #{songs[counter]}"
+    end
+    counter+=1
+  end
   #   else
   #     puts "Invalid input, please try again"
   #   end
