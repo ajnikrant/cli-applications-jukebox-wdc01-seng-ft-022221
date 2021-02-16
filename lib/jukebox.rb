@@ -14,7 +14,12 @@ def play
 end
 
 def list
+  counter = 0
 
+  while counter <songs.length
+    puts songs[counter]
+    counter+=1 
+  end
 end
 
 def exit_jukebox
