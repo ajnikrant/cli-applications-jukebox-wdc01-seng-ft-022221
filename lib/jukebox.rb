@@ -29,7 +29,7 @@ def play(songs)
     end
     counter +=1
   end
-binding.pry
+# binding.pry
 end
 
 def list(songs)
