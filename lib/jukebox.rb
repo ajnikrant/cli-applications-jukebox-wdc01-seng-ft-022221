@@ -19,6 +19,7 @@ def play(songs)
     if user_input == songs[counter] || [counter]+1
       puts "Playing #{songs[counter]}"
     else
+      puts "Invalid input, please try again"
     end
     counter +=1
   end
