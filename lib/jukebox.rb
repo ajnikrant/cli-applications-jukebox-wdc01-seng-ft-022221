@@ -32,6 +32,7 @@ puts "Please enter a song name"	  #this method is slightly different!
     puts "Invalid input, please try again"	  #check to see if the name they give is in fact a key of the my_songs hash
   else	  #if it isn't, tell them their choice is invalid
     puts "Now playing #{song_to_play}"
+  end
 end
 
 def list(songs)
