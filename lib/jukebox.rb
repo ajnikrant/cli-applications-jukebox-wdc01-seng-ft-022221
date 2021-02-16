@@ -39,7 +39,7 @@ end
 
 def run(songs)
   user_input = gets.chomp
-  until user_input == "exit"
+  while user_input == !"exit"
     if user_input == "help"
       help
     elsif user_input == "play"
