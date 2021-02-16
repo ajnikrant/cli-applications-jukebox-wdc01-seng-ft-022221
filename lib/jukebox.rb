@@ -15,7 +15,7 @@ end
 
 def list
   songs.each do |song, index|
-    puts index+1}. song
+    puts index+1. song
     binding.pry
   end
 end
