@@ -20,10 +20,6 @@ def play(songs)
     end
     counter+=1
   end
-  #   else
-  #     puts "Invalid input, please try again"
-  #   end
-
   if !songs.include?(user_input)
     puts "Invalid input, please try again"
   else
