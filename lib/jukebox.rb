@@ -43,7 +43,7 @@ def run(songs)
   while user_input
     puts "Please enter a command:"
     user_input=gets.strip
-    
+
       when user_input == "list"
         list(songs)
       when user_input == "play"
