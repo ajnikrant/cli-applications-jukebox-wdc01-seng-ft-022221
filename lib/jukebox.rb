@@ -17,11 +17,7 @@ def play(songs)
   #   else
   #     puts "Invalid input, please try again"
   #   end
-  #   # binding.pry
-  #
-  #   counter +=1
-  # end
-# binding.pry
+
 puts "Please enter a song name or number:"
   song_to_play = gets.chomp
   if !songs.include?(song_to_play)
