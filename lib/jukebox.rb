@@ -12,7 +12,7 @@ end
 
 def play(songs)
   counter=0
-  user_input = gets
+  user_input = gets.strip
   puts "Please enter a song name or number:"
 
   while counter < songs.length
