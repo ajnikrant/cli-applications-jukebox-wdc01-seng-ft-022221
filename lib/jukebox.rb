@@ -39,9 +39,5 @@ end
 
 def run
   user_input = gets.chomp
-  unless user_input == "exit"
-    help
-    play(songs)
-    list(songs)
-  end
+
 end
