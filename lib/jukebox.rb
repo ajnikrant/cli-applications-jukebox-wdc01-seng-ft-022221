@@ -14,11 +14,9 @@ def play
 end
 
 def list(songs)
-  counter = 0
 
-  while counter <songs.length
-    puts songs[counter].strip
-    counter+=1
+  songs.keys.each_with_index do |song, i|
+   puts "#{i + 1}. #{song}"
   end
 end
 
