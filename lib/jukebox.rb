@@ -18,16 +18,13 @@ def play(songs)
   while counter < songs.length
     if user_input == songs[counter]
       puts "Playing #{songs[counter]}"
+    elsif user_input == counter+1
+      puts "Playing #{songs[counter]}"
     else
       puts "Invalid input, please try again"
     end
     # binding.pry
 
-    if user_input == counter+1
-      puts "Playing #{songs[counter]}"
-    else
-      puts "Invalid input, please try again"
-    end
     counter +=1
   end
 # binding.pry
