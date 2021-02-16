@@ -44,13 +44,13 @@ def run(songs)
     puts "Please enter a command:"
     user_input=gets.strip
 
-      when user_input == "list"
+      when "list"
         list(songs)
-      when user_input == "play"
+      when "play"
         play(songs)
-      when user_input == "exit"
+      when "exit"
         exit_jukebox
-      when user_input== "help"
+      when "help"
         help
       else
         help
