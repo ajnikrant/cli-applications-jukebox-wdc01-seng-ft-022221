@@ -49,6 +49,7 @@ def run(songs)
       when "play"
         play(songs)
       when "exit"
+        puts "I accept the following commands:"
         exit_jukebox
         break
 
