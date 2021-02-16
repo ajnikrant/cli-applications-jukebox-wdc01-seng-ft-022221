@@ -1,5 +1,6 @@
 # Add your code here
 require 'pry'
+require_relative "../lib/jukebox"
 
 def help
   puts "I accept the following commands:"
