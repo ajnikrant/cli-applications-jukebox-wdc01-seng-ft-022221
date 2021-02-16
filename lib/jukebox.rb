@@ -16,7 +16,7 @@ end
 
 def list(songs)
 binding.pry
-  songs.keys.each_with_index do |song, i|
+  songs.each_with_index do |song, i|
    puts "#{i + 1}. #{song}"
   end
 end
