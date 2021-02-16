@@ -11,7 +11,8 @@ def help
 end
 
 def play(songs)
-
+  user_input = gets.strip
+  puts "Please enter a song name or number:"
 end
 
 def list(songs)
