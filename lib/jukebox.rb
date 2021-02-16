@@ -15,7 +15,7 @@ def play
 end
 
 def list(songs)
-binding.pry
+# binding.pry
   songs.each_with_index do |song, i|
    puts "#{i + 1}. #{song}"
   end
