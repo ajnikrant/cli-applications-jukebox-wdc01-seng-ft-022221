@@ -11,10 +11,6 @@ def help
 end
 
 def play(songs)
-  # counter=0
-  # user_input = gets.chomp
-  # puts "Please enter a song name or number:"
-  #
   # while counter < songs.length
   #   if user_input.to_i== counter+1 || user_input == songs[counter]
   #     puts "Playing #{songs[counter]}"
