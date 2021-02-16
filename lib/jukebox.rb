@@ -14,8 +14,8 @@ def play
 end
 
 def list
-  songs.each_with_index do |song, index|
-    puts "#{index+1}. #{song}"
+  songs.each do |song, index|
+    puts index+1}. song
     binding.pry
   end
 end
