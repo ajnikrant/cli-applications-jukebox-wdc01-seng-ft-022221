@@ -14,10 +14,7 @@ def play
 end
 
 def list
-  songs.each do |song|
-    puts song
-    binding.pry
-  end
+
 end
 
 def exit_jukebox
