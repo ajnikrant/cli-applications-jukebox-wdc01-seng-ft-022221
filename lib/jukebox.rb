@@ -52,8 +52,9 @@ def run(songs)
         exit_jukebox
       when user_input== "help"
         help
-      else 
+      else
         help
+      end
 
       end
 
