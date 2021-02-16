@@ -39,6 +39,6 @@ end
 
 def run
   unless condition
-    
+
   end
 end
