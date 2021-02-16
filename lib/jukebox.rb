@@ -26,11 +26,11 @@ def play(songs)
   #   counter +=1
   # end
 # binding.pry
-puts "Please enter a song name or number:"	  #this method is slightly different!
-  song_to_play = gets.chomp	  #you should still ask the user for input and collect their song choice
-  if !songs.include?(song_to_play)	  #this time, only allow user's to input a song name
-    puts "Invalid input, please try again"	  #check to see if the name they give is in fact a key of the my_songs hash
-  else	  #if it isn't, tell them their choice is invalid
+puts "Please enter a song name or number:"
+  song_to_play = gets.chomp
+  if !songs.include?(song_to_play)
+    puts "Invalid input, please try again"
+  else
     puts "Now playing #{song_to_play}"
   end
 end
