@@ -22,6 +22,7 @@ def play(songs)
       puts "Playing #{songs[counter]}"
     else
       puts "Invalid input, please try again"
+      puts "Please enter a song name or number:"
     end
     # binding.pry
 
