@@ -17,7 +17,7 @@ def list(songs)
   counter = 0
 
   while counter <songs.length
-    puts songs[counter]
+    puts songs[counter].strip
     counter+=1
   end
 end
