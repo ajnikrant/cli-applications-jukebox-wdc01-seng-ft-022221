@@ -22,7 +22,7 @@ def play(songs)
     end
     counter +=1
   end
-  
+
 end
 
 def list(songs)
