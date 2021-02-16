@@ -17,7 +17,7 @@ def list(songs)
   counter = 0
 
   while counter <songs.length
-    puts [counter +1] + "." + songs[counter]
+    puts [counter +1] + songs[counter]
     counter+=1
   end
 end
