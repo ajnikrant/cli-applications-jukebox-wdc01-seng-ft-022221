@@ -38,4 +38,7 @@ def exit_jukebox
 end
 
 def run
+  unless condition
+    
+  end
 end
