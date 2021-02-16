@@ -11,19 +11,20 @@ def help
 end
 
 def play(songs)
-  # while counter < songs.length
-  #   if user_input.to_i== counter+1 || user_input == songs[counter]
-  #     puts "Playing #{songs[counter]}"
+  counter = 0
+  while counter < songs.length
+    if user_input.to_i== counter+1
+      puts "Playing #{songs[counter]}"
   #   else
   #     puts "Invalid input, please try again"
   #   end
 
 puts "Please enter a song name or number:"
-  song_to_play = gets.chomp
-  if !songs.include?(song_to_play)
+  user_input = gets.chomp
+  if !songs.include?(user_input)
     puts "Invalid input, please try again"
   else
-    puts "Now playing #{song_to_play}"
+    puts "Now playing #{user_input}"
   end
 end
 
