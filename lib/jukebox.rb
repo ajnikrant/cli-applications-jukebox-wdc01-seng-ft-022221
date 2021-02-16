@@ -42,7 +42,7 @@ def run(songs)
   user_input = ""
   while user_input
     puts "Please enter a command:"
-    user_input=gets.strip
+    user_input=gets.downcase.strip
     case user_input
       when "list"
         list(songs)
