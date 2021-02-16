@@ -14,13 +14,14 @@ def play(songs)
   counter=0
   user_input = gets.strip
   puts "Please enter a song name or number:"
-  
+
   while counter < songs.length
     if user_input == songs[counter]
       puts "Playing #{songs[counter]}"
     else
       puts "Invalid input, please try again"
     end
+    binding.pry
 
     if user_input == counter+1
       puts "Playing #{songs[counter]}"
