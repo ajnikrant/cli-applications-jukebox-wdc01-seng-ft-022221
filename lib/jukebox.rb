@@ -38,18 +38,12 @@ def exit_jukebox
 end
 
 def run(songs)
-  user_input = gets.chomp
-  unless user_input == "exit"
-    if user_input == "help"
-      help
-    elsif user_input == "play"
-      play(songs)
-    elsif user_input == "list"
+  help
+  user_input = ""
+  while user_input
+    user_input=gets.strip
+    when user_input == "list"
       list(songs)
-    end
-  end
 
-  if user_input == "exit"
-    exit_jukebox
-  end
+
 end
