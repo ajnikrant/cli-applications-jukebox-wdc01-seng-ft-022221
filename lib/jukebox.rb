@@ -13,9 +13,9 @@ end
 def play(songs)
   counter=0
   user_input = gets.strip
+  puts "Please enter a song name or number:"
   
   while counter < songs.length
-  puts "Please enter a song name or number:"
     if user_input == songs[counter]
       puts "Playing #{songs[counter]}"
     else
