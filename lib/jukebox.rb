@@ -41,6 +41,8 @@ def run(songs)
   help
   user_input = ""
   while user_input != "exit"
+    binding.pry
+
     puts "Please enter a command:"
     user_input=gets.downcase.strip
     case user_input
@@ -55,5 +57,4 @@ def run(songs)
         help
       end
     end
-binding.pry
 end
