@@ -40,7 +40,7 @@ end
 def run(songs)
   help
   user_input = ""
-  while user_input
+  while user_input != "exit"
     puts "Please enter a command:"
     user_input=gets.downcase.strip
     case user_input
@@ -51,11 +51,9 @@ def run(songs)
         play(songs)
       when "help"
         help
-      when "exit"
-        exit_jukebox
-        break
       else
         help
       end
+      exit_jukebox
     end
 end
