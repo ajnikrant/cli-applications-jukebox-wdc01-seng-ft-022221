@@ -55,8 +55,5 @@ def run(songs)
         help
       end
     end
-
-    if user_input == "exit"
-      exit_jukebox
-    end
+binding.pry
 end
