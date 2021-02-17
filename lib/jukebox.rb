@@ -55,4 +55,5 @@ def run(songs)
         help
       end
     end
+    run(songs)
 end
