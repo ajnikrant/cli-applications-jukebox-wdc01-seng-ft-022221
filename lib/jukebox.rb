@@ -40,7 +40,7 @@ end
 def run(songs)
   help
   user_input = ""
-  until user_input == "exit"
+  while user_input
     puts "Please enter a command:"
     user_input=gets.downcase.strip
     case user_input
