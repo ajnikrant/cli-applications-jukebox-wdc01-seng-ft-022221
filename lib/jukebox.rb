@@ -54,7 +54,7 @@ def run(songs)
         exit_jukebox
         break
       else
-        puts help
+        help
       end
 
     end
